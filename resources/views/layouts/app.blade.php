@@ -16,12 +16,12 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
 </head>
-<!-- <style>
+<style>
 body {
-   background-image: url("/img/luna.jpg");
+   background-image: url("/img/1.png");
    background-color: #cccccc;
 }
-</style> -->
+</style>
 <body>
     @guest
 
