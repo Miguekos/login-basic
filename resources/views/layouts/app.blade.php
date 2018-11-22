@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Prestamos | Inicio</title>
+    <title>Login | Inicio</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -16,12 +16,6 @@
     <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
 
 </head>
-<style>
-body {
-   background-image: url("/img/1.png");
-   background-color: #cccccc;
-}
-</style>
 <body>
     @guest
 

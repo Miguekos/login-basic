@@ -11,7 +11,7 @@ class RolesTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 0; $i < 3; $i++){
+        for ($i = 0; $i < 2; $i++){
             if ($i == 0){
                 $nombre = "Administrador";
             }elseif ($i == 1){

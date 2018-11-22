@@ -1,11 +1,5 @@
 @extends('layouts.app')
-<style>
-#img {
-   /* background-image: url('/img/luna.jpg'); */
-   /* background-color: #cccccc; */
-}
 
-</style>
 @section('content')
 <h1 class="jumbotron text-center">Control</h1>
 <hr>

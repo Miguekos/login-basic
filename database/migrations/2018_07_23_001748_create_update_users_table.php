@@ -14,7 +14,8 @@ class CreateUpdateUsersTable extends Migration
     public function up()
     {
         Schema::table('users', function ($table) {
-            $table->string('rol')->nullable();
+            $table->integer('rol')->unsigned()->nullable();
+            $table->foreign ('rol')->references('id')->on('roles');
         });
     }
 
